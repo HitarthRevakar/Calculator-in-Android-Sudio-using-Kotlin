@@ -60,7 +60,6 @@ class MainActivity : AppCompatActivity() {
 //          Toast.makeText(this, "The Number is :  $result", Toast.LENGTH_SHORT).show()
         }
 
-
         clearbutton.setOnClickListener {
             try {
                 // Clear the text in resultView and EditText views
@@ -71,6 +70,5 @@ class MainActivity : AppCompatActivity() {
                 e.printStackTrace()
             }
         }
-
     }
 }
